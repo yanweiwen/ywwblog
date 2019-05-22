@@ -30,6 +30,11 @@ module.exports = {
         'no-underscore-dangle': 'off',
         'no-param-reassign': 'off',
         'max-len': 'off',
-        'no-return-await': 'off'
+        'no-return-await': 'off',
+        // Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+        "linebreak-style": [0 ,"error", "windows"],
+        // 统一换行符，"\n" unix(for LF) and "\r\n" for windows(CRLF)，默认unix
+        // off或0: 禁用规则
+        'linebreak-style': 'off'
     }
 }
