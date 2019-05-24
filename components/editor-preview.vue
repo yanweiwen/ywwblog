@@ -151,7 +151,6 @@ export default {
 .editor-preview {
     flex: 1;
     padding: 15px;
-    overflow: scroll;
 }
 
 /**
