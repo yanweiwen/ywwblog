@@ -35,7 +35,7 @@
     "moment": "^2.23.0",
     "mongoose": "^5.4.2",
     "nodemailer": "^5.1.1",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.15.8",
     "qr-image": "^3.2.0",
     "require-all": "^3.0.0",
     "shelljs": "^0.8.3",
